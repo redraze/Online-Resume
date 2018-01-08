@@ -1,0 +1,270 @@
+/* Stylesheet for a device screen with less than 450 pixels of width. */
+
+
+/* navbar */
+#navbar .big {
+    display: none;
+}
+
+#navbar .small {
+    display: block;
+}
+
+#navbar {
+    font-size: 80px;
+}
+
+#navbar .dropbtn {
+    height: 150px;
+    border-radius: 20px;
+}
+
+#navbar .small span {
+    vertical-align: -35px;
+}
+
+#navbar .dropdown:hover .dropdown-content {
+    border-radius: 50px;
+}
+
+#navbar .dropdown-content div {
+    width: 600px;
+    height: 190px;
+    font-size: 65px;
+}
+
+#navbar .dropdown-content a {
+    padding: 50px 0 50px 40px;
+}
+
+#navbar a:hover {
+    border-radius: 50px;
+}
+
+/* intro section */
+#intro {
+	min-height: 0;
+	height: 700px;
+	background-size: 1400px;
+	background-position: top;
+}
+
+#intro p {
+    font-size: 85px;
+    width: 5em;
+}
+
+#intro .me {
+    width: 450px;
+    margin-left: 5%;
+}
+
+#intro .intro_foot {
+    display: none;
+}
+
+/* about section */
+#about {
+    padding-bottom: 7em;
+}
+
+#about .about p {
+    margin-top: 20px;
+	font-size: 70px;
+	width: 3.6em;
+}
+
+#about .about img {
+    padding-top: 150px;
+}
+
+#about .cities {
+    font-size: 33px;
+}
+
+#about .more {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#about .more img {
+    height: 140px;
+    width: 140px;
+    margin-top: 50px;
+}
+
+/* education section */
+#education {
+    padding-bottom: 9.5em;
+}
+
+#education .education {
+	font-size: 70px;
+	padding-top: 1.8em;
+	margin-bottom: 60px;
+}
+
+#education .education p {
+    width: 6.1em;
+}
+
+#education img {
+    height: 300px;
+    width: 300px;
+    margin-top: 70px;
+}
+
+#education .svc img {
+    margin-top: 115px;
+}
+
+#education .schools h3 {
+    font-size: 35px;
+}
+
+#education .schools h4 {
+    font-size: 32px;
+}
+
+#education .schools h5 {
+    font-size: 29px;
+}
+
+#education .schools img {
+    margin-bottom: 30px;
+}
+
+/* work experience section */
+#work .top {
+	font-size: 70px;
+	width: 10.8em;
+	padding-top: 100px;
+	margin-bottom: 2em;
+}
+
+#work img {
+    height: 300px;
+    width: 300px;
+}
+
+#work .pic {
+    margin: 0 auto 0 auto;
+}
+
+#work .teaching img {
+    height: 200px;
+    width: 200px;
+}
+
+#work .two {
+    height: 177px;
+    width: 300px;
+}
+
+#work .jobs div {
+    display: block;
+}
+
+#work h3 {
+    font-size: 41px;
+}
+
+#work h4 {
+    font-size: 38px;
+}
+
+#work h5 {
+    font-size: 35px;
+}
+
+#work .face {
+    margin: 60px auto 60px auto;
+    width: 90vh;
+}
+
+#work .body {
+    font-size: 33px;
+    width: 90vh;
+    margin-bottom: 240px;
+}
+
+#work .other .body {
+    margin-bottom: 50px;
+}
+
+/* projects section */
+#projects .top {
+	font-size: 70px;
+	padding-top: 100px;
+}
+
+#projects .projects h2 {
+    font-size: 42px;
+    margin-bottom: 60px;
+}
+
+#projects .projects p {
+    font-size: 34px;
+}
+
+#projects .projects div {
+    width: 90vw;
+    margin-top: 70px;
+}
+
+#projects .projects {
+    padding-bottom: 130px;
+}
+
+/* contact section */
+#contact {
+    background-size: 1300px;
+    background-position: top;
+}
+
+#contact .thanks {
+	height: 700px;
+}
+
+#contact .thanks p {
+    font-size: 120px;
+    width : 5em;
+    text-align: center;
+    padding: 1.5em 0 0 0;
+}
+
+#contact .foot {
+    background-color: black;
+    padding-bottom: 90px;
+}
+
+#contact .foot p {
+    font-size: 90px;
+}
+
+#contact img {
+    height: 180px;
+    width: 180px;
+}
+
+#contact .in > * {
+    margin: 40px;
+}
+
+#contact .outlook .outlook-content {
+    width: 708px;
+    height: 183px;
+    border-radius: 35px;
+    border: 5px solid white;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+#contact .wechat .wechat-content {
+    width: 708px;
+    height: 183px;
+    border-radius: 35px;
+    border: 5px solid white;
+    font-size: 50px;
+    padding-top: 10px;
+}
