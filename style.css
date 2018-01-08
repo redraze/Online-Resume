@@ -1,0 +1,591 @@
+/* Master stylesheet. */
+
+
+/* navbar */
+#navbar {
+    font-size: 25px;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: white;
+}
+
+#navbar .dropbtn {
+    background-color: black;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+    width: 140px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#navbar .dropdown {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    display: inline-block;
+}
+
+#navbar .dropbtn:hover {
+    background-color: #203035;
+}
+
+#navbar .small {
+    display: none;
+}
+
+#navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    border-radius: 10px;
+}
+
+#navbar .dropdown-content div {
+    width: 250px;
+}
+
+#navbar .dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 10px;
+    background-color: #203035;
+}
+
+#navbar .dropdown-content a {
+    display: block;
+    padding: 20px 0 20px 10px;
+    color: white;
+}
+
+#navbar .dropdown:hover .dropbtn {
+    background-color: #203035;
+    color: rgb(78, 157, 171);
+}
+
+#navbar a:hover {
+    color: rgb(78, 157, 171);
+    background-color: #152530;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* intro section */
+#intro {
+	background: URL("../images/dindex.png");
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	vertical-align: baseline;
+}
+
+#intro .me {
+	text-align: center;
+	color: white;
+	vertical-align: baseline;
+	display: inline-block;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 400px;
+	margin-left: 10%;
+}
+	
+#intro p {
+    font-size: 60px;
+    margin: 10px;
+    font-weight: 700;
+    margin-left: 5%;
+    letter-spacing: .2em;
+}
+
+#intro .intro_foot {
+	display: block;
+}
+
+#intro .glyphicon-arrow-down {
+	margin-bottom: 2vh;
+}
+
+#intro a {
+	width: 140px;
+	font-size: 16px;
+	color: white;
+	justify-content: center;
+	position: absolute;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	bottom: 0;
+	margin: 0 auto 20px auto;
+	right: 0;
+	left: 0;
+	line-height: 2em;
+}
+
+#intro a .lm {
+	padding-bottom: 5px;
+	font-size: 16px;
+	letter-spacing: .15em;
+}
+
+#intro a:hover {
+	text-decoration: none;
+}
+
+#intro a:hover .lm {
+	text-decoration: underline;
+}
+
+/* about section */
+#about {
+	display: block;
+	color: #C7EBE8;
+	background-color: #238AA6;
+	padding-bottom: 3em;
+}
+
+#about .about {
+	text-align: center;
+	position: relative;
+	letter-spacing: .2em;
+}
+
+#about .about p {
+	display: block;
+	position: absolute;
+	top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	right: 0;
+	left: 0;
+	padding-top: 70px;
+	padding-bottom: .75em;
+	font-size: 40px;
+	font-weight: 800;
+	letter-spacing: .2em;
+	line-height: 1em;
+	width: 4em;
+	border-bottom: 2px #C7EBE8 solid;
+}
+
+#about .about img {
+	width: 100%;
+	padding: 50px 0 20px 0;
+}
+
+#about .more img {
+	height: 50px;
+	width: 50px;
+	vertical-align: -20px;
+}
+
+#about .cities {
+	margin-top: .75em;
+	font-size: 20px;
+	line-height: 1.4em;
+	max-width: 95vw;
+	margin: .5em auto .5em auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#about .seattle {
+	width: 30vw;
+	text-align: center;
+}
+
+#about .shanghai {
+	width: 30vw;
+	text-align: center;
+}
+
+#about .more {
+	text-align: center;
+	font-size: 17px;
+	padding-top: 30px;
+	max-width: 90vw;
+	margin: 0 auto 0 auto;
+}
+
+#about .more p {
+	max-width: 90vw;
+	width: 50em;
+	margin: 10px auto;
+	line-height: 1.75em;
+}
+
+#about .hli {
+	color: white;
+	font-weight: 700;
+}
+
+/* education section */
+#education{
+	background-color: grey;
+	padding-bottom: 4em;
+	color: #202020;
+}
+
+#education .education {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 40px;
+	font-weight: 800;
+	letter-spacing: .2em;
+	line-height: 1em;
+	display: block;
+	max-width: 90vw;
+	margin: 0 auto 60px auto;
+}
+
+#education .education p {
+	display: block;
+	width: 7.3em;
+	padding-bottom: .75em;
+	border-bottom: 2px solid rgb(51, 51, 51);
+	margin: 0 auto 0 auto;
+}
+
+#education .schools {
+	max-width: 90vw;
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
+
+#education img {
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	margin-top: 20px;
+}
+
+#education .schools h3 {
+	font-weight: 800;
+	letter-spacing: .2em;
+}
+
+#education .schools h4 {
+	font-weight: 700;
+	letter-spacing: .1em;
+}
+
+#education .schools h5 {
+	margin-top: 10px;
+}
+
+#education .svc {
+	margin-top: 30px;
+}
+
+#education h4 {
+	margin: 20px;
+}
+
+#education .svc img {
+	margin-top: 50px;
+}
+
+/* work experience section */
+#work {
+	background-color: #2E3842;
+	display: block;
+	text-align: center;
+	color: rgb(211, 211, 211);
+}
+
+#work .top {
+	font-size: 40px;
+	font-weight: 800;
+	letter-spacing: .2em;
+	line-height: 1em;
+	border-bottom: 2px solid;
+	width: 12.3em;
+	margin: 0 auto 1.5em auto;
+	padding: 70px 0 .75em 0;
+	max-width: 90vw;
+}
+
+#work .hli {
+	color: white;
+	font-weight: 700;
+}
+
+#work .jobs p {
+	letter-spacing: .08em;
+}
+
+#work div .jobs {
+	width: 90vw;
+	display: block;
+}
+
+#work .jobs {
+	padding-bottom: 110px;
+	max-width: 95vw;
+	margin: 0 auto 0 auto;
+}
+
+#work .face {
+	display: inline-block;
+	width: 350px;
+	max-width: 90vw;
+	vertical-align: -50px;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+#work .IP .face {
+	vertical-align: -30px;
+}
+
+#work .IP .body {
+	vertical-align: -37px;
+}
+
+#work .teaching .body {
+	vertical-align: -44px;
+}
+
+#work .teaching .face {
+	vertical-align: -40px;
+}
+
+#work .other .face {
+	vertical-align: -40px;
+}
+
+#work .other .body {
+	vertical-align: -10px;
+}
+
+#work .pic {
+	display: inline-block;
+	max-width: 90vw;
+}
+
+#work .body {
+	display: inline-block;
+	width: 500px;
+	max-width: 90vw;
+	padding-top: 40px;
+	margin: 0 auto 0 auto;
+}
+
+#work img {
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+
+#work .teaching img {
+	height: 100px;
+	width: 100px;
+}
+
+#work .one {
+	margin-right: 10px;
+}
+
+#work .two {
+	height: 118px;
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+#work .jobs > * {
+	margin-top: 80px;
+}
+
+#work h3 {
+	margin: 0 10px 0 10px;
+	letter-spacing: .08em;
+}
+
+#work h4 {
+	letter-spacing: .08em;
+}
+
+#work h5 {
+	letter-spacing: .08em;
+}
+
+#work p {
+	line-height: 1.75em;
+}
+
+/* projects section */
+#projects {
+	background-color: #505393;
+	color: white;
+}
+
+#projects > * {
+	text-align: center;
+}
+
+#projects .top {
+	font-size: 40px;
+	font-weight: 800;
+	letter-spacing: .2em;
+	line-height: 1em;
+	border-bottom: 2px solid;
+	width: 6em;
+	margin: 0 auto 2em auto;
+	padding: 60px 0 .75em 0;
+	max-width: 90vw;
+}
+
+#projects .projects div {
+	display: inline-block;
+	justify-content: space-between;
+	width: 500px;
+	max-width: 85vw;
+	margin: 0 auto 60px auto;
+	padding: 20px;
+}
+
+#projects .projects {
+	width: 85vw;
+	margin: 50px auto 0 auto;
+	padding-bottom: 50px;
+}
+
+#projects .projects p {
+	line-height: 2em;
+	letter-spacing: .2em;
+	font-size: 16px;
+	margin: 30px auto 0 auto;
+}
+
+#projects .pic {
+	height: 20vh;
+	background-image: URL("../images/car.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#projects h2 {
+	letter-spacing: .1em;
+	font-weight: 700;
+}
+
+#projects .webpage {
+    vertical-align: -30px;
+}
+
+/* contact section */
+#contact {
+	background: URL("../images/dindex.png");
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+#contact .thanks {
+	background-color: rgba(0,0,0,.3);
+	height: 490px;
+}
+
+#contact .thanks p {
+	text-shadow: 2px 2px black;
+	text-align: left;
+	font-size: 70px;
+	font-weight: 700;
+	letter-spacing: .2em;
+	padding: 3.4em 0 0 1.3em;
+}
+
+#contact .foot p {
+	vertical-align: -5px;
+	padding-top: 40px;
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: .2em;
+}
+
+#contact .foot {
+	background-color: rgba(0,0,0,.9);
+	padding: 10px 0 20px 0;
+}
+
+#contact .foot > * {
+	display: inline-block;
+	margin: 17px;
+}
+
+#contact .in > * {
+	display: inline-block;
+	margin: 17px;
+}
+
+#contact img {
+	height: 60px;
+	width: 60px;
+	border-radius: 20%;
+}
+
+#contact .outlook {
+    position: relative;
+    display: inline-block;
+}
+
+#contact .outlook .outlook-content {
+    width: 256px;
+    height: 60px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+#contact .outlook:hover .outlook-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+#contact .wechat {
+    position: relative;
+    display: inline-block;
+}
+
+#contact .wechat-content {
+	width: 255px;
+	height: 60px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+#contact .wechat:hover .wechat-content {
+	visibility: visible;
+    opacity: 1;
+}
