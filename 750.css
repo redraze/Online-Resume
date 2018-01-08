@@ -1,0 +1,133 @@
+/* Stylesheet for a viewport with less than 750 pixels of width */
+
+
+
+/* navbar */
+#navbar .big {
+    display: none;
+}
+
+#navbar .small {
+    display: block;
+}
+
+#navbar {
+    font-size: 15px;
+}
+
+#navbar .dropbtn {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+#navbar .dropdown-content div {
+    width: 150px;
+}
+
+#navbar .small span {
+    vertical-align: -11px;
+}
+
+/* intro section */
+#intro {
+    min-height: 0;
+    height: 380px;
+    background-size: 750px;
+    background-position: top;
+}
+
+#intro p {
+    font-size: 40px;
+    width: 5em;
+}
+
+#intro .me {
+    width: 220px;
+    margin-left: 5%;
+}
+
+#intro .intro_foot {
+    display: none;
+}
+
+/* about section */
+#about .about p {
+	font-size: 35px;
+	padding-top: 40px;
+}
+
+#about .cities {
+    font-size: 18px;
+}
+
+#about .more p {
+    font-size: 15px;
+}
+
+#about .more img {
+    height: 40px;
+    width: 40px;
+    vertical-align: -16px;
+}
+
+/* education section */
+#education .education {
+	font-size: 35px;
+	padding-top: 1.3em;
+}
+
+#education .education p {
+    width: 7.1em;
+}
+
+#education img {
+    margin: 0 auto 20px auto;
+}
+
+/* work experience section */
+#work .top {
+	font-size: 33px;
+}
+
+/* projects section */
+#projects .top {
+	font-size: 35px;
+}
+
+#projects h2 {
+    font-size: 25px;
+}
+
+#projects .projects p {
+    font-size: 15px;
+}
+
+#projects .projects div {
+    margin-bottom: 40px;
+}
+
+/* contact section */
+#contact {
+    min-height: 0;
+    height: 380px;
+    background-size: 750px;
+    background-position: bottom;
+}
+
+#contact .thanks {
+    height: 225px;
+}
+
+#contact .thanks p {
+	font-size: 40px;
+	padding-top: 85px;
+}
+
+#contact .foot p {
+    font-size: 25px;
+}
+
+#contact .foot > * {
+    margin: 10px;
+}
